@@ -6,6 +6,10 @@ A TBLACKSBOT é uma plataforma tecnológica completa criada para formar a próxi
   <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbot4.jpg" alt="Plataforma TBLACKSBOT" width="600px">
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbotfrente.jpg" alt="Plataforma TBLACKSBOT" width="750px">
+</div>
+
 ---
 
 ## 📖 História da TBLACKSBOT
@@ -57,14 +61,14 @@ A TBLACKSBOT foi projetada para transformar teoria em prática, permitindo que e
 Nossa plataforma conta com diversos conectores que permitem a conexão de vários tipos de acessórios, além de uma ampla variedade de módulos e sensores para estudos, testes e experimentação prática.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbot3.jpg" alt="TBLACKSBOT com acessório tipo garra" width="600px">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/garra.png" alt="TBLACKSBOT com acessório tipo garra" width="600px">
   <br>
   <sub>TBLACKSBOT com acessório tipo garra</sub>
 </div>
 
-### Interfaces Visuais Suportadas
+### Interfaces Visuais de Displays Suportados
 
-A TBLACKSBOT foi projetada para oferecer ampla compatibilidade com diferentes tipos de interfaces visuais, permitindo que projetos educacionais, experimentais e profissionais utilizem displays compactos, de baixo consumo e alta legibilidade. Entre os módulos suportados, destacam-se:
+A TBLACKSBOT foi projetada para oferecer ampla compatibilidade com diferentes tipos de displays, permitindo que projetos educacionais, experimentais e profissionais utilizem displays compactos, de baixo consumo e alta legibilidade. Entre os módulos suportados, destacam-se:
 
 **• Displays OLED 0.96″ (128×64) e Display OLED 0.91″ (128×32)**
 Ideais para projetos compactos, esses OLEDs apresentam excelente contraste, baixo consumo e comunicação I2C ou SPI. São perfeitos para mostrar medições de sensores, menus básicos, status do sistema e dados de telemetria em tempo real.

@@ -173,7 +173,7 @@ No conjunto de nossa plataforma, é possível acoplar uma ampla variedade de sen
 </div>
 <br>
 
-A plataforma também oferece compatibilidade via adaptador com a ESP32-CAM, possibilitando aplicações com captura de imagens, visão computacional, streaming de vídeo e reconhecimento de padrões — recursos essenciais para estudos de Inteligência Artificial embarcada. Essa flexibilidade torna a TBLACKSBOT uma plataforma completa para ensino, pesquisa aplicada e desenvolvimento de soluções modernas em IoT, automação e computação embarcada.
+Essa flexibilidade torna a TBLACKSBOT uma plataforma completa para ensino, pesquisa aplicada e desenvolvimento de simulações aplicada ao IoT, automação e computação embarcada.
 
 ---
 
@@ -295,7 +295,7 @@ A TBLACKSBOT consolida a visão da SiriNEO Technologies de entregar ao mercado e
 
 Sua arquitetura modular — composta pela TBLACKSBOT (chassi base) e TBLACKS1BOT (chassi superior) — permite que estudantes, makers e desenvolvedores trabalhem com ferramentas profissionais desde o primeiro contato. Mais do que um kit educacional de robótica, a TBLACKSBOT é uma plataforma tecnológica evolutiva, capaz de acompanhar o crescimento do usuário e atender desde atividades introdutórias até experimentos avançados em computação embarcada, automação inteligente e IoT distribuída.
 
-Com a TBLACKSBOT, a SiriNEO Technologies reafirma seu compromisso em promover a inovação, democratizar o acesso a tecnologias de ponta e formar as próximas gerações de profissionais que atuarão no desenvolvimento das soluções inteligentes do futuro.
+Com a TBLACKSBOT, a SiriNEO Technologies reafirma seu compromisso em promover a inovação no Brasil, gerando uma solução de hardware de baixo custo e assim democratizar o acesso a tecnologias de ponta e formar as próximas gerações de profissionais que atuarão no desenvolvimento das soluções inteligentes do futuro.
 
 ---
 

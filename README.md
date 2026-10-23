@@ -71,7 +71,25 @@ Nossa plataforma conta com diversos conectores que permitem a conexão de vário
 A TBLACKSBOT foi projetada para oferecer ampla compatibilidade com diferentes tipos de displays, permitindo que projetos educacionais, experimentais e profissionais utilizem displays compactos, de baixo consumo e alta legibilidade. Entre os módulos suportados, destacam-se:
 
 **• Displays OLED 0.96″ (128×64) e Display OLED 0.91″ (128×32)**
-Ideais para projetos compactos, esses OLEDs apresentam excelente contraste, baixo consumo e comunicação I2C ou SPI. São perfeitos para mostrar medições de sensores, menus básicos, status do sistema e dados de telemetria em tempo real.
+Ideais para projetos compactos, esses OLEDs apresentam excelente contraste, baixo consumo e comunicação I2C ou SPI. São perfeitos para mostrar medições de sensores, menus básicos, status do sistema e dados de telemetria em tempo real.  
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/TBLACKSBOTOLEDsf.png" alt="display 16x2" width="500px">
+  <br>
+  <sub>TBLACKSBOT com Displays OLED 0.96</sub>
+</div>
+<br>
+
+**• Displays LCD 16×2**
+
+Clássicos e amplamente utilizados na indústria e no ensino, os LCD 16×2 permitem exibir informações textuais de forma simples e eficiente. Suportam interfaces paralelas e módulos I2C, sendo excelentes para dashboards embarcados, mensagens de status e projetos educacionais interativos.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbot16x2.png" alt="display 16x2" width="500px">
+  <br>
+  <sub>TBLACKSBOT com Display LCD 16×2</sub>
+</div>
+<br>
 
 **• Displays E-Paper da Waveshare (2.9”, 2.66”, 1.54”)**
 A TBLACKS1BOT, que é o shield superior, também pode trabalhar com uma variedade de e-papers da Waveshare, reconhecidos por seu baixíssimo consumo e alta legibilidade mesmo sob luz solar intensa. Esses displays são ideais para aplicações IoT e sistemas alimentados por bateria. Os tamanhos mais utilizados incluem:
@@ -79,10 +97,14 @@ A TBLACKS1BOT, que é o shield superior, também pode trabalhar com uma variedad
 *   **E-Paper 2.66″** — formato compacto e elegante, ideal para identificadores, badges eletrônicos e interfaces de baixo consumo.
 *   **E-Paper 1.54″** — extremamente eficiente e portátil, ideal para wearables, sensores remotos e dispositivos alimentados por energia solar.
 
-Por utilizarem tecnologia de tinta eletrônica, esses displays consomem energia apenas durante a atualização da imagem, permanecendo visíveis mesmo sem alimentação constante — uma característica essencial em protótipos e sistemas IoT de ultra baixo consumo.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbot1-s.png" alt="Soquete Nano" width="600px">
+  <br>
+  <sub>TBLACKSBOT com E-PAPER</sub>
+</div>
+<br>
 
-**• Displays LCD 16×2**
-Clássicos e amplamente utilizados na indústria e no ensino, os LCD 16×2 permitem exibir informações textuais de forma simples e eficiente. Suportam interfaces paralelas e módulos I2C, sendo excelentes para dashboards embarcados, mensagens de status e projetos educacionais interativos.
+Por utilizarem tecnologia de tinta eletrônica, esses displays consomem energia apenas durante a atualização da imagem, permanecendo visíveis mesmo sem alimentação constante — uma característica essencial em protótipos e sistemas IoT de ultra baixo consumo.
 
 ---
 
@@ -90,26 +112,37 @@ Clássicos e amplamente utilizados na indústria e no ensino, os LCD 16×2 permi
 
 A TBLACKSBOT e o Shield Tatamaya Black foram estruturados para serem os recursos padrão do ecossistema educacional da SiriNEO Technologies. Seu design modular e seus barramentos de expansão permitem que ela seja utilizada com diversas arquiteturas de processamento, tornando-a uma solução flexível para ensino, pesquisa e prototipagem profissional.
 
-Para garantir a máxima interoperabilidade, a TBLACKSBOT pode ser totalmente compatível com múltiplas plataformas de desenvolvimento, incluindo:
 *   Arduino Nano R4 (baseado no Renesas RA4M1)
 *   Arduino NANO (ATmega328P)
+*   STM32 Nucleo F303K8 - ARM Cortex-M4F (padrão Arduino Nano)
 *   Orange Pi Zero (ARM Cortex-A7)
 *   Raspberry Pi Zero (ARM Cortex-A53)
 *   ESP32-S3-Nano (Wifi, Bluetooth, 8MB PSRAM, 16MB Flash)
 
 Essa compatibilidade ampliada permite que educadores, estudantes e desenvolvedores utilizem a TBLACKSBOT com diferentes ecossistemas — desde microcontroladores clássicos, passando por plataformas de IoT, até sistemas Linux embarcados de maior capacidade computacional.
 
+A compatibilidade com o STM32 Nucleo F303K8 permite o uso de um microcontrolador de 72 MHz com FPU, ideal para aplicações que exigem processamento matemático mais complexo em tempo real.
+
 ### 1. Pinagem Padrão Arduino Nano
 Esse tipo de pinagem é ideal para conectar plataformas que adotam o mesmo form factor do Arduino Nano, garantindo compatibilidade elétrica, mecânica e facilidade de integração com shields, módulos e extensões baseados nesse padrão.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/soquetenano.jpg" alt="Soquete Nano" width="400px">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/soquetenano.jpg" alt="Soquete Nano" width="600px">
   <br>
   <sub>Soquete Padrão Arduino Nano</sub>
 </div>
+<br>
 
 ### 2. Pinagem Padrão Raspberry Pi Zero e Raspberry Pi Pico
 Esse tipo de pinagem é ideal para conectar plataformas que adotam o padrão de GPIO do Raspberry Pi Zero ou do Raspberry Pi Pico, garantindo compatibilidade mecânica e elétrica, além de facilitar a integração direta com módulos, HATs, periféricos e extensões desenvolvidos para esses dispositivos.
+
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/pinraspberryPI_pico.png" alt="Soquete Nano" width="900px">
+  <br>
+  <sub>Soquete Padrão Raspberry Pi Zero e Raspberry Pi Picoo</sub>
+</div>
+<br>
 
 ### 3. Pinagem Padrão XBee Socket
 Na parte superior da plataforma — que se integra à base inferior por meio de um soquete padrão Raspberry Pi — encontra-se a **TBLACKS1BOT**, responsável pela camada de expansão e conectividade avançada da TBLACKSBOT. Nessa placa estão disponíveis diversos padrões de conexão, incluindo o soquete XBee (XBee SOCKET), projetado para módulos de comunicação sem fio de alta performance. Além disso, a TBLACKS1BOT incorpora soquetes no padrão Arduino UNO, bem como conectores dedicados para acoplamento de sensores, módulos de interface e diferentes tipos de displays, ampliando as possibilidades de prototipagem e integração de hardware.
@@ -129,6 +162,7 @@ Essa flexibilidade transforma a plataforma em uma ferramenta ideal para ensaios 
   <br>
   <sub>Chassi Superior TBLACKS1BOT com TIBEE e XBEE</sub>
 </div>
+<br>
 
 No conjunto de nossa plataforma, é possível acoplar uma ampla variedade de sensores e módulos adicionais, expandindo significativamente as capacidades educacionais e de prototipagem. Entre os recursos compatíveis, destaca-se o shield Tatamaya Black, que possui alguns sensores e recursos nativos já integrados, permitindo testes mais avançados em projetos de IoT, robótica e automação.
 
@@ -137,6 +171,7 @@ No conjunto de nossa plataforma, é possível acoplar uma ampla variedade de sen
   <br>
   <sub>Chassi Superior TBLACKS1BOT com Tatamaya Black</sub>
 </div>
+<br>
 
 A plataforma também oferece compatibilidade via adaptador com a ESP32-CAM, possibilitando aplicações com captura de imagens, visão computacional, streaming de vídeo e reconhecimento de padrões — recursos essenciais para estudos de Inteligência Artificial embarcada. Essa flexibilidade torna a TBLACKSBOT uma plataforma completa para ensino, pesquisa aplicada e desenvolvimento de soluções modernas em IoT, automação e computação embarcada.
 
@@ -153,8 +188,9 @@ No modo autônomo, a TBLACKSBOT opera como uma plataforma robótica inteligente 
 <div align="center">
   <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tb3.png" alt="TBLACKS1BOT com ESP32 CAM e HC-SR04" width="900px">
   <br>
-  <sub>TBLACKS1BOT com ESP32 CAM / TBLACKSBOT com HC-SR04</sub>
+  <sub>TBLACKS1BOT com ESP32 CAM</sub>
 </div>
+<br>
 
 Com essa combinação, a TBLACKSBOT desenvolve capacidades avançadas de autonomia, como:
 *   Mapeamento simples do ambiente (2D passivo);
@@ -173,6 +209,7 @@ Sua arquitetura híbrida — podendo operar com microcontroladores, Raspberry Pi
 *   Fusões de sensores (sensor fusion) combinando VL53L1X + Ultrassom + visão.
 
 ### 2. Modo Controlável
+
 A TBLACKSBOT opera também em modo controlável remoto, permitindo que o usuário interaja com a plataforma utilizando interfaces Web, Aplicativos Mobile ou joysticks físicos, de forma totalmente integrada e com baixa latência. Essa flexibilidade é possível graças aos hardwares conectados a ela que utilizam protocolos BLE (Bluetooth Low Energy) e Wi-Fi, garantindo conectividade estável e adequada para diferentes cenários de uso educacional, acadêmico e profissional.
 
 *   **Controle via Web:** a TBLACKSBOT pode funcionar como um Web Server embarcado ou se conectar a um servidor externo. Isso possibilita a construção de dashboards de comando, telemetria em tempo real, sliders de controle, monitoramento de sensores e interação com atuadores por meio de navegadores em computadores, tablets ou smartphones.
@@ -184,8 +221,10 @@ A TBLACKSBOT opera também em modo controlável remoto, permitindo que o usuári
   <br>
   <sub>TBLACKSBOT com Módulo WiFi - ESP8266</sub>
 </div>
+<br>
 
 ### 3. Modo Seguidor de Linha
+
 A TBLACKSBOT suporta a implementação precisa do modo seguidor de linha utilizando um arranjo de 5 sensores QRE1113, que utilizam um CASE retangular refletivo para montagem passante (Through-Hole) 100AQ, amplamente empregado em robótica educacional e competições devido à sua alta sensibilidade e resposta rápida.
 
 O QRE1113 é um sensor óptico de reflectância infravermelha, composto por um emissor IR e um fototransistor receptor. Ele detecta diferenças de contraste entre superfícies claras e escuras, permitindo que a TBLACKSBOT identifique com precisão o trajeto sinalizado por linhas pretas sobre fundo branco (ou vice-versa).
@@ -208,6 +247,7 @@ Com esse sistema, a TBLACKSBOT pode navegar de forma autônoma em rotas pré-def
 <div align="center">
   <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksobtfundo.jpg" alt="TBLACKSBOT Seguidor de Linha" width="700px">
 </div>
+<br>
 
 ### 4. Modo Mini Desktop
 Ao integrar uma Raspberry Pi Zero ou um Orange Pi Zero 2W com a TBLACKSBOT, a plataforma passa a operar como um Mini Desktop embarcado, capaz de executar sistemas complexos com alto desempenho computacional.
@@ -228,6 +268,7 @@ Com essa arquitetura híbrida, a TBLACKSBOT se torna capaz de executar:
 <div align="center">
   <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/minipc.jpg" alt="TBLACKSBOT Mini Desktop" width="800px">
 </div>
+<br>
 
 ---
 
@@ -242,6 +283,7 @@ Baseado nesse hardware, a SiriNEO Technologies adaptou o Arduino NANO R4, criand
   <br>
   <sub>TBLACKSBOT equipada com a NANOR4ST</sub>
 </div>
+<br>
 
 A NANOR4ST, desenvolvida pela SiriNEO Technologies, consolida a estratégia da startup em oferecer uma plataforma robusta, escalável e totalmente alinhada às tecnologias adotadas no mercado contemporâneo. Sua arquitetura moderna garante que estudantes, pesquisadores e desenvolvedores possam trabalhar desde o primeiro contato com uma solução de padrão profissional, apta tanto para ambientes educacionais quanto para aplicações reais de prototipagem e engenharia.
 

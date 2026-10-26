@@ -37,8 +37,9 @@ Essa abordagem elimina barreiras comuns no ensino inicial, permite foco total no
 <div align="center">
   <img src="https://raw.githubusercontent.com/sirineo-technologies/tblacksbot/main/imagens/tblacksbot2.jpg" alt="Hello World TBLACKSBOT" width="600px">
   <br>
-  <sub>Hello World da TBLACKSBOT – LED onboard ou LED no mini-protoboard</sub>
+  <sub>TBLACKSBOT montada com TBLACKS1BOT</sub>
 </div>
+
 
 O projeto foi pensado para ser apenas uma Plataforma Robótica de estudos e aprendizado para competições como a OBR – Olimpíada Brasileira de Robótica, mas com o decorrer dos testes, observamos que poderíamos ir muito mais além, quando percebemos que já estávamos fazendo testes com Inteligência Artificial e até jogando vídeo game utilizando a interface da plataforma.
 
